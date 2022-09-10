@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-import Header from "../../components/Header";
 import Socials from "../../components/Socials";
 import Footer from "../../components/Footer";
 
@@ -13,7 +12,6 @@ const Register: NextPage = () => {
         <meta name="description" content="Examine auth UI" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
       <main className="flex justify-center mt-8 font-primary pb-4 md:mt-16 md:pb-32">
         <div
           className="w-full flex flex-col items-center gap-4 px-4 pb-4 max-w-2xl md:shadow-lg md:pt-8
