@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           onClick={() => router.push("/")}
         />
       </div>
-      <div className="hidden md:flex items-center px-8 gap-2 h-full w-full md:flex-3 bg-my_grey">
+      <div className="hidden md:flex items-center px-8 gap-2 h-full w-full shadow-inner bg-my_grey md:flex-3">
         <Image
           src="/icons/search_lg.svg"
           height="20px"
